@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer mt-auto py-3 bg-light">
+    <footer className="footer mt-auto py-3 bg-secondary">
       <div className="container">
         <p className="text-primary">
           App desenvolvido por{" "}
@@ -8,6 +8,7 @@ const Footer = () => {
             href="https://github.com/apdo3939"
             target="_blank"
             rel="noreferrer"
+            className="text-light"
           >
             Alexandre Pereira{" "}
           </a>

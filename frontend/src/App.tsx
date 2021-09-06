@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container bg-light my-3 rounded">
         <h1 className="text-primary py-3">Vendas</h1>
         <div className="row px-3">
           <div className="col-sm-6">
