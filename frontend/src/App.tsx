@@ -1,11 +1,12 @@
+import DataTable from "components/dataTable";
 import Footer from "components/footer";
 import Navbar from "components/navbar";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Navbar />
-      <h1 className="text-primary">Vendas</h1>
+      <DataTable />
       <Footer />
     </div>
   );
