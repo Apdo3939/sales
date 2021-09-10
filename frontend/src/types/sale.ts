@@ -28,6 +28,6 @@ export type SalePage = {
   numberOfElements?: number;
   first: boolean;
   number: number;
-  size?: number;
+  size: number;
   empty?: boolean;
 };
