@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer mt-auto py-3 bg-secondary">
       <div className="container">
-        <p className="text-primary">
+        <p className="text-light">
           App desenvolvido por{" "}
           <a
             href="https://github.com/apdo3939"
@@ -13,11 +13,9 @@ const Footer = () => {
             Alexandre Pereira{" "}
           </a>
         </p>
-        <p className="text-primary">
-          <small>
-            <strong>Dashboard vendas</strong>
-            <br />
-          </small>
+        <p className="text-light">
+          <strong>Dashboard vendas</strong>
+          <br />
         </p>
       </div>
     </footer>

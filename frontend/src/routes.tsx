@@ -1,3 +1,5 @@
+import Footer from "components/footer";
+import Navbar from "components/navbar";
 import Dashboard from "pages/dashboard";
 import Home from "pages/home";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -5,6 +7,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 const Routes = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -13,6 +16,7 @@ const Routes = () => {
           <Dashboard />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 };
