@@ -12,3 +12,11 @@ export const formatLocalDate = (date: string, pattern: string) => {
   );
   return format(dtDateOnly, pattern);
 };
+
+export const formatNumber = (number: number) => {
+  const amount = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  }).format(number);
+  return amount;
+};

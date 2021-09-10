@@ -1,3 +1,5 @@
+import { Seller } from "./seller";
+
 export type SaleSum = {
   seller: string;
   sum: number;
@@ -14,5 +16,18 @@ export type Sale = {
   visited: number;
   deals: number;
   amount: number;
-  date: Date;
+  date: string;
+  seller: Seller;
+};
+
+export type SalePage = {
+  content?: Sale[];
+  last: boolean;
+  totalPages: number;
+  totalElements: number;
+  numberOfElements?: number;
+  first: boolean;
+  number: number;
+  size?: number;
+  empty?: boolean;
 };
