@@ -43,7 +43,7 @@ const BarChart = () => {
       .get(BASE_URL + "/sales/success-by-seller")
       .then((response) => {
         const data = response.data as SaleSuccess[];
-        const myLabels = data.map((x) => x.seller);
+        const myLabels = data.map((x) => x.name);
         const mySeries = data.map((x) =>
           round((100.0 * x.deals) / x.visited, 1)
         );

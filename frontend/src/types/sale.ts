@@ -1,12 +1,12 @@
 import { Seller } from "./seller";
 
 export type SaleSum = {
-  seller: string;
+  name: string;
   sum: number;
 };
 
 export type SaleSuccess = {
-  seller: string;
+  name: string;
   visited: number;
   deals: number;
 };
