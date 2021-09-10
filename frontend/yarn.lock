@@ -2238,6 +2238,11 @@ acorn@^7.1.0, acorn@^7.1.1, acorn@^7.4.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
+
 address@1.1.2, address@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
@@ -2366,10 +2371,10 @@ anymatch@^3.0.3, anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-apexcharts@^3.28.1:
-  version "3.28.1"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.28.1.tgz#35a17ea9ef9a1a93fb01ce79d245af8aedb59a7b"
-  integrity sha512-5M1KitI/XmY2Sx6ih9vQOXyQUTmotDG/cML2N6bkBlVseF10RPSzM7dkrf7Y68apSZF6e7J581gXXu1+qkLhCA==
+apexcharts@3.26.1:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.26.1.tgz#2094ec0cfd00ed8129d93e73e75018716d55ef5b"
+  integrity sha512-Z/pfGTsL4YUm1tHd6a0d0G2hX4XUmhEI0b/5BxVK69dEB/XXvVMX9hKCkcIx+kPyVqVFCuo91ZjCdqjMcmSVBA==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
@@ -11713,6 +11718,11 @@ yargs@^15.4.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.11:
+  version "1.22.11"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.11.tgz#d0104043e7349046e0e2aec977c24be106925ed6"
+  integrity sha512-AWje4bzqO9RUn3sdnM5N8n4ZJ0BqCc/kqFJvpOI5/EVkINXui0yuvU7NDCEF//+WaxHuNay2uOHxA4+tq1P3cg==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
